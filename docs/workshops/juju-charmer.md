@@ -10,15 +10,10 @@ Nous allons créer un charm reactif pour Wordpress. Vous avez besoin de l'outils
 
 2. Suivez ce guide: 
 
-**Pour le charm original minetest:** 
+   Pour le charm reactif wordpress:
 
-https://ruffell.nz/programming/writeups/2019/12/02/learning-how-to-write-juju-charms-by-creating-a-minetest-charm.html
-
-**Pour le charm reactif wordpress:**
-
-https://cloud.garr.it/charms/create-and-deploy-charms/
+   https://cloud.garr.it/charms/create-and-deploy-charms/
 
 ### Note: 
 
-Voir la partie opération pour debuggage ou pendant que vous attendez pour vos déploiements.
-
+[Voir la partie opération](juju-operator.md) pour debuggage ou pendant que vous attendez pour vos déploiements.
