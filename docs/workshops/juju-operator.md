@@ -34,11 +34,10 @@ Quelques trucs:
   juju debug-log --replay #Pour voir les anciens logs aussi
   ```
 
-- ~~entrez pas ssh sur une machine en passant par juju~~ *ne semble pas fonctionner*
+- roulez une commande sur une machine
 
   ```
-  juju ssh 0 #Machine ID
-  juju ssh wordpress/1 #Unit
+  juju run 'ps -aux' --machine 4
   ```
 
 - la plupart des commandes en debug
