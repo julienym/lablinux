@@ -63,5 +63,41 @@ Ceci est la partie pratique pour ceux qui veulent voir comment opérer sur un ch
 
 
 
-Important:
+Quelques trucs:
+
+- voir le status du modèle real-time: 
+
+  ```
+  watch -c juju status --color
+  ```
+
+- voir les logs du modèle
+
+  ```
+  juju debug-log
+  juju debug-log --replay #Pour voir les anciens logs aussi
+  ```
+
+- entrez pas ssh sur une machine en passant par juju
+
+  ```
+  juju ssh 0 #Machine ID
+  juju ssh wordpress/1 #Unit
+  ```
+
+- la plupart des commandes en debug
+
+  ```
+  juju deploy cs:wordpress --debug
+  ```
+
+- enlever une application/machine/modèle
+
+  ```
+  juju remove-application wordpress
+  juju remove-machine 0 #utilisez --force au besoin
+  juju destroy-model MYMODELNAME #Attention ceci détruit tout, application, machine etc.
+  ```
+
+  
 
