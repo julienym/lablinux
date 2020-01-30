@@ -10,8 +10,9 @@
   - Vous serez à rentrer un mot de passe
 - Vérifier votre controlleur
   - juju list-controllers
-- Créer son modèle (espace de travail)
+- Créer son modèle (espace de travail) et définir l'espace réseau par défaut
   - juju add-model VOTRENOM
+  - juju set-model-constraints spaces=maas
 - (bonus) Rajouter sa clef SSH publique au modèle pour pouvoir accèder aux machines créées
   - Si votre clef est déjà sur github: juju import-ssh-key gh:USERNAME
   - Sinon: juju add-ssh-key "VOTRE CLEF PUBLIQUE" ou utiliser "$(cat ~/mykey.pub)"

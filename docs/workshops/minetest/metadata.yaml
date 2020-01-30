@@ -1,0 +1,14 @@
+name: minetest
+summary: The minetest gane
+maintainer: demo@demo
+description: minetest
+tags:
+  - game
+subordinate: false
+series: [bionic]
+provides:
+  server:
+    interface: minetest
+requires:
+  db:
+    interface: postgresql
