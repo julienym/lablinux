@@ -5,8 +5,8 @@ Ceci est la partie pratique pour ceux qui veulent voir comment opérer sur un ch
 1. Bastion SSH/NAT
 
    1. Compte tenu que le cloud Maas est 'on-prem' et non sur le cloud, vos IPs seront locales. (ex. 172.16.66.23) - Il vous faudra soit :
-   1. Passer par un tunnel SSH: [voir instructions](../juju/TunnelSshMaas.md)
-      2. Demandez une redirection NAT : Assurez-vous de choisir un hostname - au besoin - avec n'importe quel sous-domaine *.ws1.lab-linux.com et fournissez votre IP privée et port
+      1. Passer par un tunnel SSH: [voir instructions](../juju/TunnelSshMaas.md)
+      1. Demandez une redirection NAT : Assurez-vous de choisir un hostname - au besoin - avec n'importe quel sous-domaine *.ws1.lab-linux.com et fournissez votre IP privée et port
 
 2. Choisissez un bundle pas trop gros
 
