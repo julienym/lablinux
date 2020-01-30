@@ -40,5 +40,3 @@
          1. ```
             ssh -N bastion.ws1.lab-linux.com -L 8888:(172.16.66.78|hostname.maas):80
             ```
-
-2. 

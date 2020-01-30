@@ -34,7 +34,7 @@ Quelques trucs:
   juju debug-log --replay #Pour voir les anciens logs aussi
   ```
 
-- entrez pas ssh sur une machine en passant par juju
+- ~~entrez pas ssh sur une machine en passant par juju~~ *ne semble pas fonctionner*
 
   ```
   juju ssh 0 #Machine ID
