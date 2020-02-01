@@ -1,16 +1,19 @@
 # Juju - Charmer
 
-Nous allons créer un charm reactif pour Wordpress. Vous avez besoin de l'outils charm.
+Nous allons créer un charm reactif pour Wordpress. Vous avez besoin de l'outils charm pour le charm réactif.
 
-Guides d'installation:
+1. Guides d'installation:
 
 - Docker: https://hub.docker.com/r/jujusolutions/charmbox
 - Ubuntu: https://github.com/juju/charm-tools
 - Mac OS X: https://brewinstall.org/install-charm-tools-on-mac-with-brew/
 
+2. Suivez ce guide: 
 
+   Pour le charm reactif wordpress:
 
-Suivez ce guide: https://cloud.garr.it/charms/create-and-deploy-charms/
+   https://cloud.garr.it/charms/create-and-deploy-charms/
 
-Note: 
+### Note: 
 
+[Voir la partie opération](juju-operator.md) pour debuggage ou pendant que vous attendez pour vos déploiements.
